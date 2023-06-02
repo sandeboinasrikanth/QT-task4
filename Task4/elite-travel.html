@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    <title>Elite Travel Management</title>
+    <style>
+        .lite{
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Left section -->
+    <div>
+        <img src="img/w7nO-travelImg.png" alt="Elite travel" width="50%" height="90%">
+    </div>
+    <!-- Right section -->
+    <form action="">
+        <table>
+            <h2>ELITE TRAVEL MANAGEMENT</h2>
+            <tbody>
+                <!-- first row -->
+                <tr>
+                    <td class="lite">
+                        <a href="#travel" id="travel-info" >Travel-info</a>
+                        </td>
+                        <td>
+                            <a href="" id="personal-info">Personal-info</a>
+                        </td>
+                        <td>
+                            <a href="" id="preferance-info">Preferance-info</a>
+                        </td>
+                    </tr>
+                    <!-- second row -->
+                    <tr>
+                        <td colspan="3" id="travel" >
+                            Travel Information
+                        </td>
+                    </tr>
+                    <!-- third row -->
+                    <tr>
+                        <td>
+                            <label for="destination" >Select your travel destination:</label> <br>
+                            <select name="destination" id="destination">
+                                <option value="select">select...</option>
+                                <option value="london">London</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Mauritius">Mauritius</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="dateofdeparture">Date of departure:</label> <br>
+                            <input type="date" name="dateofdeparture" id="dateofdeparture" >
+                        </td>
+                        <td>
+                            <label for="dateofarrival">Date of Arrival:</label> <br>
+                            <input type="date" name="dateofarrival" id="dateofarrival" >
+                        </td>
+                    </tr>
+                    <!-- fourth row -->
+                    <tr>
+                        <td>
+                            <input type="number" name="kids" id="kids" placeholder="No of kids" required >
+                        </td>
+                        <td>
+                            <input type="number" name="teens" id="teens" placeholder="No of teens" required >
+                        </td>
+                        <td>
+                            <input type="number" name="aldults" id="aldults" placeholder="No of adults" required >
+                        </td>  
+                    </tr>
+                    <!-- fifth row -->
+                    <tr>
+                        <td>
+                            <label for="">Visa Assistance</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="visa" id="yes"><label for="yes">Yes</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="visa" id="no"><label for="no">No</label>
+                        </td>
+                    </tr>
+                    <!-- sixth row -->
+                    <tr>
+                        <td colspan="3">Personal Information</td>
+                    </tr>
+                    <!-- seventh row -->
+                    <tr>
+                        <td>
+                            <label for="">Customer Name</label>
+                        </td>
+                        <td colspan="2" >
+                            <input  type="text" class="pInfo"  placeholder="Enter the customer name">
+                        </td>      
+                    </tr>
+                    <!-- eight row -->
+                    <tr>
+                        <td>
+                            <label for="">Phone Number</label>
+                        </td>
+                        <td colspan="2" >
+                            <input  type="tel" class="pInfo" name="" id="" placeholder="Enter the phone number">
+                        </td>
+                    </tr>
+                    <!-- nineth row -->
+                    <tr>
+                        <td>
+                            <label for="">Email ID</label>
+                        </td>
+                        <td colspan="2" >
+                            <input type="email" class="pInfo" name="" id="" placeholder="Enter the email id">
+                        </td>
+                    </tr>
+                    <!-- tenth row -->
+                    <tr >
+                        <td colspan="3">Activities Preferences</td>
+                    </tr>
+                    <!-- 11th row -->
+                    <tr>
+                        <td>
+                            <input type="checkbox"><label for="">Museums & Historic Sities</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="" id=""><label for="">Culture</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="" id=""><label for="">Beaches</label>
+                        </td>
+                    </tr>
+                    <!-- 12th row -->
+                    <tr>
+                        <td>
+                            <input type="checkbox"><label for="">Shoppings</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="" id=""><label for="">Wildwife</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="" id=""><label for="">Relaxing</label>
+                        </td>
+                    </tr>
+                    <!-- 13th row -->
+                    <tr>
+                        <td colspan="3">
+                           <a href="#submit"> **Click here to unlock exclusive offers</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <!-- submit button -->
+        <button type="submit">BUILD PACKAGE</button>
+    </form>
+    
+</body>
+</html>
+
+
+
+<!-- Note -->
+<!-- 1) Create element with html 
+2) Style with CSS one by one -->
